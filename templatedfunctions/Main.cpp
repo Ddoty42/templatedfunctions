@@ -19,9 +19,9 @@ int main(){
 
 	int a, b = 3;
 
-	a = divide(b);
+	a = static_cast<float>(divide(b));
 
-	cout << static_cast<float>(round(a)) << endl;
+	cout << a << endl;
 
 	float c, d = 5;
 
