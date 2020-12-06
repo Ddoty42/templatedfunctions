@@ -21,7 +21,7 @@ int main(){
 
 	a = static_cast<float>(divide(b));
 
-	cout << a << endl;
+	cout << round(a) << endl;
 
 	float c, d = 5;
 
